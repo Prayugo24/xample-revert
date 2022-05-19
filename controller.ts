@@ -10,4 +10,17 @@ class controller{
     editRepository(data: string): Promise<string | null> {
         return "Hello" as any
     }
+
+    deleteRepository(data: string): Promise<string | null> {
+        return "Hello" as any
+    }
+
+    findRepository(data: string): Promise<string | null> {
+        return "Hello" as any
+    }
+
+    findAllRepository(data: string): Promise<string | null> {
+        return "Hellos" as any
+    }
+    
 }
