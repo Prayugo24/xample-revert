@@ -6,4 +6,8 @@ class controller{
     saveRepository(data: string): Promise<string | null> {
         return "Hello" as any
     }
+
+    editRepository(data: string): Promise<string | null> {
+        return "Hello" as any
+    }
 }
