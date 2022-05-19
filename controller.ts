@@ -20,7 +20,7 @@ class controller{
     }
 
     findAllRepository(data: string): Promise<string | null> {
-        return "Hello" as any
+        return "Hellos" as any
     }
     
 }
