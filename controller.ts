@@ -18,4 +18,9 @@ class controller{
     findRepository(data: string): Promise<string | null> {
         return "Hello" as any
     }
+
+    findAllRepository(data: string): Promise<string | null> {
+        return "Hello" as any
+    }
+    
 }
